@@ -14,3 +14,4 @@ access password from the VPNBook server
 4. Run the VPNBookAuthorizer.jar
 Now you can login into VNPbook servers without writing login and password
 5. Enjoy you privacy (=
+Be good & positive ;)
