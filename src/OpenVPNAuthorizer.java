@@ -15,7 +15,7 @@ public class OpenVPNAuthorizer {
                 .forEach(s -> {
                     ArrayList<String> list = (ArrayList<String>) FileActions.readAllLines(s);
                     boolean changed = FileActions.replacer(list, auth);
-                    if (changed) //Если список был изменён - выполняем запись в файл
+                    if (changed) // If the list has been changed - write to the file. Если список был изменён - выполняем запись в файл
                         FileActions.write(list, s.toString());
                 });
     }
