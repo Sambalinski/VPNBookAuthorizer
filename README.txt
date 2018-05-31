@@ -2,6 +2,8 @@
 This program created for simple authorization to VPNbook servers.
 It writs name of file with login & password to open VPN config file.
 
+https://www.vpnbook.com/freevpn
+
 You must have Java on your computer.
 
 Instructions to use it.
