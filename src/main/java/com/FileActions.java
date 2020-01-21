@@ -38,8 +38,7 @@ public class FileActions {
             String s = list.get(i).trim();
             if (s.equals("auth-user-pass")) {
                 changed = true;
-                String replacement = s + " " + auth;
-                list.remove(i);
+                String replacement = s.concat(" ").concat(auth);
                 list.add(i, replacement);
             }
         }
